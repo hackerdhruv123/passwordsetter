@@ -40,8 +40,6 @@ function App() {
         <h1 className="text-2xl font-bold text-center mb-4">
           Password Generator
         </h1>
-
-        {/* input + button */}
         <div className="flex shadow rounded-lg overflow-hidden mb-4">
           <input
             type="text"
@@ -57,8 +55,6 @@ function App() {
             Copy
           </button>
         </div>
-
-        {/* length slider */}
         <div className="flex items-center gap-2 mb-4">
           <input
             type="range"
@@ -70,8 +66,6 @@ function App() {
           />
           <span>{length}</span>
         </div>
-
-        {/* checkboxes */}
         <div className="flex gap-4">
           <label className="flex items-center gap-1">
             <input
